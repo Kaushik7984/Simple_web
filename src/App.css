@@ -1,0 +1,89 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  width: 95%;
+}
+
+form {
+  margin: 20px;
+  
+}
+
+div.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Specific component styles */
+.auth-form {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+ 
+ 
+}
+
+.dashboard, .profile, .home {
+  padding: 20px;
+}
+
+.logout{
+ border-radius: 5px;
+ border: none ;
+ padding: 2px 8px;
+}
+
